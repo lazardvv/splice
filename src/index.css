@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+
+.label-style {
+  @apply bg-black text-white mt-2 p-2 rounded-full;
+}
+
+.fiber-1 { background-color: red; }
+.fiber-2 { background-color: green; }
+.fiber-3 { background-color: blue; }
+.fiber-4 { background-color: yellow; }
+.fiber-5 { background-color: white; }
+.fiber-6 { background-color: grey; }
+.fiber-7 { background-color: brown; }
+.fiber-8 { background-color: violet; }
+.fiber-9 { background-color: turquoise; }
+.fiber-10 { background-color: black; color: white; }
+.fiber-11 { background-color: orange; }
+.fiber-12 { background-color: pink; }
+
+/* Fibers 13–24 with white horizontal lines */
+.fiber-13 { background: repeating-linear-gradient(white 0px, white 2px, red 2px, red 6px); }
+.fiber-14 { background: repeating-linear-gradient(white 0px, white 2px, green 2px, green 6px); }
+.fiber-15 { background: repeating-linear-gradient(white 0px, white 2px, blue 2px, blue 6px); }
+.fiber-16 { background: repeating-linear-gradient(white 0px, white 2px, yellow 2px, yellow 6px); }
+.fiber-17 { background: repeating-linear-gradient(white 0px, white 2px, white 2px, white 6px); border: 1px solid #ccc; }
+.fiber-18 { background: repeating-linear-gradient(white 0px, white 2px, grey 2px, grey 6px); }
+.fiber-19 { background: repeating-linear-gradient(white 0px, white 2px, brown 2px, brown 6px); }
+.fiber-20 { background: repeating-linear-gradient(white 0px, white 2px, violet 2px, violet 6px); }
+.fiber-21 { background: repeating-linear-gradient(white 0px, white 2px, turquoise 2px, turquoise 6px); }
+.fiber-22 { background: repeating-linear-gradient(white 0px, white 2px, black 2px, black 6px); color: white; }
+.fiber-23 { background: repeating-linear-gradient(white 0px, white 2px, orange 2px, orange 6px); }
+.fiber-24 { background: repeating-linear-gradient(white 0px, white 2px, pink 2px, pink 6px); }
+
