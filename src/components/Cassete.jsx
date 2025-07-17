@@ -18,7 +18,11 @@ const Cassette = ({ index, setSplicedAddresses }) => {
         tubeType: '',
         microTubeNr: '',
         cableLength: '',
-        fiberNumber: null
+        fiberNumber: null,
+        splitter1to2: '',
+        splitter1to4: '',
+        splitterOut1to8: '',
+        Splice: ''
       }))
     }))
   );
@@ -166,7 +170,7 @@ const Cassette = ({ index, setSplicedAddresses }) => {
       {[
         'Port', 'Status', 'ID', 'Street', 'Street No.', 'Postal Code',
         'District', 'Users', 'Tube Nr', 'Tube Type', 'MicroTube Nr',
-        'Cable Length', 'Fiber Number'
+        'Cable Length', 'Fiber Number', 'splitter1to2', 'splitter1to4', 'splitterOut1to8', 'Splice'
       ].map((header) => (
         <th key={header} className="border border-gray-400 px-2 py-1 text-left">
           {header}
@@ -189,9 +193,12 @@ const Cassette = ({ index, setSplicedAddresses }) => {
         <td className="border border-gray-300 px-2 py-1">{port.tubeType}</td>
         <td className="border border-gray-300 px-2 py-1">{port.microTubeNr}</td>
         <td className="border border-gray-300 px-2 py-1">{port.cableLength}</td>
-        <td className={`border px-2 py-1 fiber-${port.fiberNumber ?? ''}`}>
-  {port.fiberNumber ?? ''}
-</td>
+        <td className={`border px-2 py-1 fiber-${port.fiberNumber ?? ''}`}>{port.fiberNumber ?? ''}</td>
+        <td className="border border-gray-300 px-2 py-1">{port.splitter1to2}</td> 
+        <td className="border border-gray-300 px-2 py-1">{port.splitter1to4}</td>
+        <td className="border border-gray-300 px-2 py-1">{port.splitterOut1to8}</td>
+        <td className="border border-gray-300 px-2 py-1">{port.Splice}</td>
+
 
       </tr>
     ))}
