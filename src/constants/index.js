@@ -93,6 +93,1162 @@ const adresses = [
  
 ];
 
+  const initalPorts = [
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.1",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.1 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.2",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.2 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.3",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.3 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "1",
+        "splitter1to8": "1.4",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S1.4 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.1",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.1 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.2",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.2 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.3",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.3 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "2",
+        "splitter1to8": "2.4",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S2.4 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.1",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.1 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.2",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.2 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.3",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.3 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "3",
+        "splitter1to8": "3.4",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S3.4 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.1",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.1 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.2",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.2 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.3",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.3 OUT 8",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT1",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 1",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT2",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 2",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT3",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 3",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT4",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 4",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT5",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 5",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT6",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 6",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT7",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 7",
+        "used": false
+      },
+      {
+        "splitter1to2ID": "4",
+        "splitter1to8": "4.4",
+        "splitterOut": "OUT8",
+        "cassetteID": "",
+        "fiberNr": "",
+        "fullID": "S4.4 OUT 8",
+        "used": false
+      }
+    ]
+
+
 
 
 
@@ -100,4 +1256,5 @@ const adresses = [
 
 export {
  adresses,
+ initalPorts
 };
