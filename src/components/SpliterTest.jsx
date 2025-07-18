@@ -1,14 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
 
-const SpliterTest = ({ need , port, setPort }) => {
-  const [ignoreOut8, setIgnoreOut8] = useState(false);
-
-  
-
+const SpliterTest = ({ need, port, setPort, ignoreOut8, setIgnoreOut8  }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const portsPerPage = 8;
-
   const indexOfLastPort = currentPage * portsPerPage;
   const indexOfFirstPort = indexOfLastPort - portsPerPage;
   const currentPorts = port.slice(indexOfFirstPort, indexOfLastPort);
@@ -22,46 +17,6 @@ const SpliterTest = ({ need , port, setPort }) => {
   const handleNext = () => {
     if (currentPage < totalPages) setCurrentPage(currentPage + 1);
   };
-
-function handleUsePorts({ need }) {
-  setPort(prevPorts => {
-    const grouped = prevPorts.reduce((acc, port) => {
-      if (!acc[port.splitter1to2ID]) acc[port.splitter1to2ID] = [];
-      acc[port.splitter1to2ID].push(port);
-      return acc;
-    }, {});
-
-    for (const splitterID in grouped) {
-      const freePorts = grouped[splitterID].filter(p => {
-        const isOut8 = p.splitterOut === 'OUT8';
-        return !p.used && (!ignoreOut8 || !isOut8);
-      });
-
-      if (freePorts.length >= need) {
-        let count = 0;
-        return prevPorts.map(p => {
-          const isOut8 = p.splitterOut === 'OUT8';
-          if (
-            p.splitter1to2ID === splitterID &&
-            !p.used &&
-            (!ignoreOut8 || !isOut8) &&
-            count < need
-          ) {
-            count++;
-            return { ...p, used: true };
-          }
-          return p;
-        });
-      }
-    }
-
-    alert('Not enough free ports in any splitter group.');
-    return prevPorts;
-  });
-}
-
-
-
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px' }}>
@@ -81,9 +36,7 @@ function handleUsePorts({ need }) {
 >
   {ignoreOut8 ? 'Ignoring OUT8 Ports' : 'Using All Ports'}
 </button>
-
-
-      <button className='bg-black p-2 m-2 rounded-full text-white hover:bg-gray-200' onClick={() => handleUsePorts({ need })}>use ports for { need } users</button>
+      
       <h2>Splitter Port Table</h2>
    <table style={{ borderCollapse: 'collapse', width: '80%', textAlign: 'center' }}>
   <thead>
@@ -114,8 +67,6 @@ function handleUsePorts({ need }) {
     ))}
   </tbody>
 </table>
-
-
       <div style={{ marginTop: '15px' }}>
         <button onClick={handlePrev} disabled={currentPage === 1} style={buttonStyle}>Previous</button>
         <span style={{ margin: '0 10px' }}>Page {currentPage} of {totalPages}</span>
@@ -124,7 +75,6 @@ function handleUsePorts({ need }) {
     </div>
   );
 };
-
 const thStyle = {
   border: '1px solid #ccc',
   padding: '10px',
